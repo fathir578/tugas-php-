@@ -1,0 +1,23 @@
+Belajar PHP: Memahami Prosedur dan Fungsi
+Banyak fungsi build-in dari php yang sering kita gunakan, seperti print(), print_r(), unset(), dll. Selain fungsi-fungsi tersebut, kita juga dapat membuat fungsi sendiri sesuai kebutuhan.
+
+Memahami Fungsi pada PHP
+Fungsi adalah sekumpulan instruksi yang dibungkus dalam sebuah blok. Fungsi dapat digunakan ulang tanpa harus menulis ulang instruksi di dalamnya. Fungsi pada PHP dapat dibuat dengan kata kunci function, lalu diikuti dengan nama fungsinya. Kode instruksi dapat di tulis di dalam kurung kurawal ({...}). Fungsi yang sudah dibuat tidak akan menghasilkan apapun kalau tidak dipanggil. Kita dapat memanggil fungsi dengan menuliskan namanya.
+
+Fungsi dengan Parameter
+Supaya instruksi yang di dalam fungsi lebih dinamis, kita dapat menggunakan parameter untuk memasukkan sebuah nilai ke dalam fungsi. Nilai tersebut akan diolah di dalam fungsi. Misalkan, pada contoh fungsi yang tadi, tidak mungkin nama yang dicetak adalah ardianta saja dan salam yang dipakai tidak selalu assalamualaikum. Maka, kita dapat menambahkan parameter menjadi seperti ini:
+
+Paramter dengan Nilai Default
+Nilai default dapat kita berikan di parameter. Nilai default berfungsi untuk mengisi nilai sebuah parameter, kalau parameter tersebut tidak diisi nilainya. Misalnya: saya lupa mengisi parameter salam, maka program akan error. Oleh karena itu, kita perlu memberikan nilai default supaya tidak error.
+
+Fungsi yang Megembalikan Nilai
+Hasil pengolahan nilai dari fungsi mungkin saja kita butuhkan untuk pemrosesan berikutnya. Oleh karena itu, kita harus membuat fungsi yang dapat mengembalikan nilai. Pengembalian nilai dalam fungsi dapat menggunakan kata kunci return.
+
+Memanggil Fungsi di dalam Fungsi
+Fungsi yang sudah kita buat, dapat juga dipanggil di dalam fungsi lain.
+
+Fungsi rekursif
+Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri. Fungsi ini biasanya digunakan untuk menyelesaikan masalah sepeti faktorial, bilangan fibbonaci, pemrograman dinamis, dll.
+
+Apa Selanjutnya?
+Sejauh ini, Kamu sudah belajar fungsi dan prosedur di PHP. Selanjutnya silakan pelajari: Cara memproses input dari Form HTML dengan PHP.
