@@ -1,0 +1,33 @@
+Belajar PHP: Sintaks Dasar PHP yang Wajib Kamu Pahami
+
+Kita sudah belajar membuat program hello_world.php. Ini adalah contoh program PHP yang paling sederhana. Program tersebut hanya berfungsi untuk menampilkan teks Hello World saja.
+
+Tapi…
+
+Apa maksudnya <?php dan ?>?
+Apa itu echo?
+…dan kenapa harus ditulis seperti itu?
+
+Jia kamu baru awal-awal belajar pemrograman, mungkin akan menanyakan hal tersebut. Ini wajar. Karena saya juga dulu seperti itu. Karena itu…untuk menjawab semua pertanyaan tersebut, kita harus memahami sintak dasar PHP.
+
+Apa itu sintak?
+Sintak adalah aturan penulisan kode program.
+Pada dasarnya setiap bahasa pemrograman itu sama, yang membedakan adalah sintak dan fitur.
+
+Struktur Program PHP yang Paling Dasar
+Ini adalah bentuk paling dasar program PHP. Tutup program (?>) bersifat opsional. Tutup program dibutuhkan saat kita menggabungkan kode PHP dengan HTML.
+
+Menulis Kode HTML dan PHP
+Saat kita menulis kode PHP di dalam HTML, maka wajib hukumnya membuat tutup program. Perhatikan contoh di atas! Apa yang akan terjadi bila kita menghapus tutup PHP (?>)? Tentunya program akan error. Oya, PHP yang ditulis di dalam HTML, filenya harus disimpan dengan ekstensi .php bukan .html meskipun isinya HTML dan PHP. Ada juga yang bisa menulis kode HTML di dalam sintak PHP, dan ini bisa tidak ditutup.
+
+Penulisan Statement dan Ekspresi
+Statement dan ekspresi adalah instruksi yang akan diberikan ke komputer. Setiap statement dan ekspresi di PHP harus diakhiri dengan titik koma (;). Gimana kalau kita lupa menuliskan titik koma? Ya tentu programnya akan error.
+
+Aturan Penulisan Case PHP
+PHP adalah bahasa pemrograman yang bersifat case sensitive. Artinya, huruf besar (kapital) dan huruf kecil akan dibedakan. Variabel $nama dan $NAMA adalah dua variabel yang berbeda. Mereka tidak sama. Penulisan huruf besar dan kecil dalam program harus diperhatikan, karena bisa menyebabkan error bila salah. Untuk menghindari ini, kita harus konsisten dalam penamaan variabel dan konstanta. Gunakan nama variabel dengan huruf kecil saja dan konstanta dengan huruf kapital.
+
+Penulisan Komentar di PHP
+Komentar adalah bagian yang tidak akan dieksekusi oleh komputer. Biasanya digunakan untuk keterangan, penjelasan, dan dokumentasi kode program. Komentar di PHP dapat ditulis dengan dua cara: menggunakan tanda // untuk komentar satu baris; dan menggunakan tanda /* untuk komentar lebih dari satu baris.
+
+Penulisan Blok Program
+Blok program merupakan kumpulan dari statement dan ekspresi. Blok program di PHP dibungkus dengan kurung kurawal { ... }.
