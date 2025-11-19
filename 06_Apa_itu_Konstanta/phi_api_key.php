@@ -1,0 +1,2 @@
+const PHI = 3.14;
+const API_KEY = "182939812739812478u12ehj1h2u3123h12";

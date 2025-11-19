@@ -1,0 +1,20 @@
+Belajar PHP: Apa itu Konstanta?
+Konstanta adalah hal dasar yang wajib kamu pahami apabila baru belajar PHP.
+Pada artikel ini, kita akan berkenalan dan membahas tentang konstanta beserta contoh programnya.
+Silakan coba sendiri contoh-contohnya, agar lebih paham.
+Baiklah…
+Silakan dimulai.
+
+Apa itu Konstanta?
+Konstanta seperti variabel. Ia bisa menyimpan nilai. Tapi tidak bisa diubah.
+Gak percaya?
+Pada percobaan tersebut, kita membuat konstanta dengan nama SITE_NAME dengan nilai Petani Kode. Lalu kita coba ubah nilainya menjadi Belajar PHP, tapi error. Kenapa bisa error? Karena sifat konstanta memang begitu. Nilai konstanta tidak bisa kita ubah-ubah seperti variabel.
+
+Kapan Kita Harus Menggunakan Konstanta?
+Konstanta biasanya digunakan untuk menyimpan nilai yang tidak pernah berubah. Pada dunia nyata, nilai PHI memang tidak akan pernah berubah. Lalu untuk API_KEY biasanya kita gunakan untuk mengakses sebuah web service dan nilai ini tidak akan pernah berubah di dalam program. Jadi, kita bisa memikirkan… …kapan harus menggunakan konstanta dan kapan harus menggunakan variabel. Intinya: Jika kita ingin menyimpan nilai yang tak akan pernah berubah, maka gunakanlah konstanta. Sedangkan apabila nilai tersebut berubah-ubah di dalam program, maka gunakanlah variabel.
+
+Cara Membuat Konstanta dan Contohnya
+Pada PHP, kita dapat membuat konstanta dengan dua cara. Menggunakan fungsi define(); Menggunakan kata kunci const. Nama konstanta diharuskan menggunakan huruf kapital agar mudah dibedakan dengan variabel. Meskipun di PHP menggunakan simbol dolar ($) untuk variabel, kita harus mengikuti aturan ini. Lalu, bagaimana cara mengambil nilai dari konstanta? Sama seperti variabel, kita tinggal tulis namanya. Perhatikan! Kita menggunakan titik (.) untuk menggabungkan dua buah string. Karena konstanta tidak menggunakan dolar, kita tidak bisa langsung menulisnya seperti ini: echo "Nama situs: SITE_NAME"; Biar makin mantap, coba contoh program berikut:
+
+Apa Selanjutnya?
+Kita sudah mengenal konstanta, lalu berikutnya apa? Pada artikel ini, kita memang belum menggunakan konstanta untuk program yang lebih kompleks. Sering-seringlah berlatih, bila kamu masih baru belajar PHP. Sejauh pengalaman saya, biasanya konstanta sering digunakan seperti contoh-contoh di atas. Semoga ke depan kamu tidak bingung bila melihat fungsi define() dan kata kunci const. Ingat: itu adalah konstanta. Selamat belajar…
