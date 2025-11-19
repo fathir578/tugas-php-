@@ -1,0 +1,23 @@
+Belajar PHP: Memahami 4 Jenis Perulangan dalam Pemrograman PHP
+Tutorial Perulangan di PHP, PHP Looping
+Apa yang akan kamu lakukan bila disuruh membuat daftar judul artikel dengan PHP? Apakah akan mencetaknya satu per satu dengan perintah echo? Bisa saja itu dilakukan. Tapi masalahnya… Bagaimana kalau datanya ada 100 atau 1000? Apakah kita mampu mengetik semuanya? Pasti capek. Karena itu, kita harus menggunakan perulangan.
+
+Ada dua jenis perulangan dalam pemrograman: Counted loop; Uncounted loop. Apa perbedaannya? Counted loop adalah perulangan yang sudah jelas banyak pengulangannya. Sedangkan Uncounted loop tidak pasti berapa kali dia akan mengulang. Pada PHP ada 4 jenis perulangan yang bisa kita gunakan: Perulangan For, Perulangan While, Perulangan Do/While, Perulangan Foreach. Apa kamu bisa menebak? Manakah di antara keempat perulangan tersebut yang termasuk ke dalam counted loop dan uncounted loop? Untuk mengetahuinya, mari kita bahas saja satu per satu.
+
+1. Perulangan For
+Perulangan For adalah perulangan yang termasuk dalam counted loop, karena kita bisa menentukan jumlah perulangannya. Variabel $i dalam perulangan For berfungsi sebagai counter yang menghitung berapa kali ia akan mengulang. Hitungan akan dimulai dari nol (0), karena kita memberikan nilai $i = 0. Lalu, perulangan akan diulang selama nilai $i lebih kecil dari 10. Artinya, perulangan ini akan mengulang sebanyak 10x. Maksud dari $i++ adalah nilai $i akan ditambah 1 di setiap kali melakukan perulangan.
+
+2. Perulangan While
+Perulangan while adalah perulangan yang termasuk dalam uncounted loop. Karena biasanya digunakan untuk mengulang sesuatu yang belum jelas jumlah pengulangannya. Namun, perulangan while juga bisa digunakan seperti perulangan for sebagai counted loop. Perulangan while akan terus mengulang selama nilai $ulangi lebih kecil dari 10. Lalu di dalam perulangan kita melakukan increment nilai $ulangi dengan $ulangi++. Artinya: Tambah 1 di setiap pengulangan. Hati-hati, jangan sampai lupa menambahkan increment, atau kode yang akan mempengaruhi pengulangan. Karena kalau tidak, pengulangannya tidak akan pernah berhenti dan akan membuat komputer kita hang.
+
+3. Perulangan Do/While
+Perulangan Do/While sama seperti perulangan while. Ia juga tergolong dalam uncounted loop. Perbedaan Do/While dengan while terletak pada cara iya memulai pengulangan. Perulangan Do/While akan selalu melakukan pengulangan sebanyak 1 kali, kemudian melakukan pengecekan kondisi. Sedangkan perulangan while akan mengecek kondisi terlebih dahulu, baru melakukan pengulangan.
+
+4. Perulangan Foreach
+Perulangan foreach sama seperti perulangan for. Namun, ia lebih khusus digunakan untuk mencetak array.
+
+Bonus: Perulangan Bersarang
+Perulangan bersarang adalah istilah untuk menyebut perulangan di dalam perulangan. Dalam bahasa inggris, perulangan bersarang disebut nested loop.
+
+Apa Selanjutnya?
+Pengetahuan tentang perulangan akan sangat membantumu belajar PHP ke tahapan berikutnya. Artikel ini hanya membahas contoh-contoh dasar penggunakan perulangan dalam pemrograman PHP. Agar semakin mantap, silakan perbanyak latihan dengan perulangan. Atau lanjut ke tutorial berikutnya: Memahami Struktur Data Array di PHP. Selamat belajar…
