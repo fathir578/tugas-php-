@@ -1,0 +1,1 @@
+sudo dnf install libapache2-mod-php php-mysql php-common

@@ -1,0 +1,139 @@
+Pemrograman web dengan PHP di Linux
+Setelah kita membahas gimana konsep dasar pemrograman PHP, sekarang kita akan melakukan persiapan alat-alat untuk coding PHP di Linux.
+Apa saja itu?
+Teks Editor
+Web Browser
+PHP interpreter
+Web Server Apache
+MySQL (opsional)
+PHPmyadmin (opsional)
+Wah banyak juga ya..
+Jika kamu cuma mau belajar dasar pemrograman PHP aja, sebenarnya cuma butuh alat dari 1–4 saja.
+Sisanya, MySQL dan PHPmyadmin nanti akan kita pakai saat membuat proyek yang butuh database. Kamu boleh meingstallnya sekarang, boleh juga nanti.
+Pada tutorial ini, kita akan menginstal satu-persatu.. layaknya menyiapkan server baru.
+Jika kamu tidak ingin menginstal satu-persatu, kamu bisa pakai XAMPP.
+Silakan baca tutorialnya di sini:
+Persiapan Pemrograman PHP di Linux dengan XAMPP
+Oke..
+Kalau begitu, mari kita mulai!
+
+1. Teks Editor
+Teks Editor akan kita gunakan untuk menulis kode PHP.
+Ada banyak pilihan teks editor di Linux seperti: Gedit, Geany, Atom, Sublime, CodeLite, dsb.
+Pilihlah teks editor yang kamu sukai.
+Saya sendiri menggunakan VS Code, karena cukup lengkap dan mudah digunakan.
+Baca juga:
+6 Teks Editor Berbasis Teks (CLI) di Linux untuk Menulis Kode)
+
+2. Browser
+Browser sudah pasti ada di setiap komputer.
+Jadi kamu tidak perlu menginstalnya.
+Ada banyak pilihan browser di Linux: Google Chrome, Firefox, Opera, dsb.
+Pilihlah browser yang kamu sukai.
+Rekomendasi dari saya, pakai aja web browser terbaru dari Chrome dan Firefox. Karena kebanyakan orang pakai dua browser ini.
+
+3. PHP Interpreter
+Agar kode PHP dapat dieksekusi, kita membutuhkan interpreter PHP. Interpreter berfungsi untuk menjalankan kode PHP.
+Versi PHP terakhir saat ini adalah versi 8.1 , jadi pastikan kamu menginstall versi ini ya.
+Karena, masa dukungan PHP 8.1 sampai akhir tahun 2024.
+Kamu bisa cek di sini: https://www.php.net/supported-versions.php
+Jika kamu menginstal PHP 7, berarti kamu menggunakan PHP yang sudah usang.
+Oke, kalau gitu..
+Gimana cara install PHP di Linux?
+Jika kamu menggunakan Ubuntu atau distro berbasis debian, kamu bisa menginstalnya dengan perintah:
+Lalu, ketik y untuk melanjutkan:
+Jika kamu pengguna Fedora atau distro berbasis Redhat, kamu bisa menginstallnya dengan perintah:
+Setelah itu, ketik y untuk melanjutkan:
+Setelah itu, jangan lupa install library yang biasanya sering digunakan.
+Ubuntu:
+Fedora:
+Keterangan:
+paket libapache2-mod-php dibutuhkan oleh server Apache2;
+paket php-common berisi beberapa library yang sering dibutuhkan;
+paket php-mysql dibutuhkan untuk koneksi PHP dengan MySQL.
+Setelah itu, untuk memastikan PHP terinstal dengan benar.
+Coba ketik perintah:
+atau
+Hasilnya:
+Di Komputer saya sudah terinstall PHP versi 8.1.12.
+
+4. Server Web (Apache)
+Sebenarnya PHP sudah membawa server web sendiri, jadi Apache sebenarnya tidak perlu kita install.
+Tapi, karena kita ingin menggunakan PHPMyAdmin, maka kita harus menginstalnya.
+Silakan ketik perintah berikut ini untuk menginstal server apache di Linux:
+Ubuntu:
+Fedora
+Setelah itu, coba periksa versi yang terinstal dengan perintah apache2 -v .
+Lalu bagaimana cara mengoprasikan server Apache ini?
+Kalau menggunakan XAMPP, kita tinggal klik start saja, maka service apache2 akan dijalankan.
+Nah, kalau di Linux, kita bisa menggunakan perintah ini untuk menyalakan service apache:
+Perintah untuk menghentikan server apache:
+Perintah untuk me-restart:
+Perintah untuk melihat status server:
+Selain itu, kita juga bisa membuka alamat http://localhost untuk memeriksa apakah server apache sudah berjalan atau belum.
+Apabila tampilannya seperti berikut ini, maka server-nya sedang berjalan.
+Jangan lupa juga untuk mengatur hak akses direktori server-nya, agar user biasa bebas membuat file dan direktori di sana.
+
+5. Server Database (MySQL)
+Saat kita akan membuat aplikasi yang lebih kompleks, kita membutuhkan database untuk menyimpan datanya.
+Biasanya, database yang digunakan adalah MySQL. Selain MySQL, ada juga PostgreSQL, Mongodb, SQLite, dsb.
+Kita akan menggunakan MySQL saja.
+Silakan ketik perintah berikut ini untuk menginstal MySQL di Linux.
+Ketik y untuk melanjutkan:
+Pada proses instalasi, kita akan diminta password untuk user root di MySQL.
+Silakan masukkan password yang mudah diingat (contoh: kopi ).
+Masukkan lagi password-nya:
+Instalasi selesai.
+Jangan lupa juga untuk memeriksa versi MySQL yang terinstal dengan perintah mysql --version .
+Cara mengoperasikannya sama seperti menjalankan service apache.
+# menyalakan service
+# menghentikan service
+# menyalakan ulang service
+# melihat status server
+
+6. PHPMyAdmin (Opsional)
+PHPMyAdmin akan digunakan untuk mengelola database MySQL dengan mudah. Karena memiliki tampilan GUI berbasis web.
+Selain menggunakan PHPMyAdmin, kita dapat juga menggunakan aplikasi yang lain seperti Beekeeper Studio , MySQL Workbench, Navicat, dsb.
+Silakan ketik perintah berikut untuk menginstal PHPMyAdmin di Linux:
+Ketik y untuk melanjutkan:
+Dalam proses instalasi kita akan diminta menentukan jenis server dan password untuk root.
+Silakan tekan tombol Spasi untuk memilih server apache2.
+Tanda bintang ( * ) artinya kita sedang memilih apache2.
+Kenapa kita harus memilih apache2?
+Karena tadi kita menginstal apache2 sebagai webserver-nya.
+Berikutnya kita akan diminta untuk mengkonfigurasi PHPMyAdmin. Silakan pilih Yes lalu tekan Enter .
+Lalu masukkan password untuk user root PHPmyadmin. Kita samakan password-nya dengan password mysql, yaitu: kopi .
+Masukkan lagi password-nya:
+Setelah berhasil diinstal, cobalah periksa ke http://localhost/phpmyadmin. Lalu, masuk dengan password yang sudah dibuat.
+Nah, semua sudah dipersiapkan.
+Bila tidak ada error sampai tahap ini, berarti kita sudah berhasil mempersiapkan semua alat-alat yang diperlukan untuk memprogram web di Linux.
+Selanjutnya, kita bisa mulai membuat web.
+
+Update: MySQL 5.7
+Pada MySQL versi 5.7, user root tidak bisa digunakan untuk login di phpmyadmin.
+Cara mengatasi masalah ini:
+Kita bisa membuat user baru yang memiliki akses yang sama seperti root . Silakan ikuti langkah-langkah berikut.
+Masuk ke shell MySQL-nya terlebih dahulu dengan perintah:
+Setelah itu, buat user baru dengan perintah ini:
+Perhatikan:
+Silakan ganti admin dan password dengan username dan password yang anda inginkan.
+Kemudian kita berikan hak akses yang sama seperti root dengan perintah ini:
+Setelah itu ketik perintah berikut untuk me-load ulang akses:
+Jika kamu mengalami kesulitan, coba tonton video ini:
+
+Troubleshooting PHPmyadmin
+Jika kamu mendapatkan masalah seperti ini:
+Coba install libapache2-mod-php :
+Setelah itu, restart server apache2:
+Masih tidak bisa?
+Coba lakukan ini:
+Konfigurasi ulang phpmyadmin dengan perintah berikut:
+Masih tidak bisa juga?
+hmmm… coba cek referensi berikut:
+
+Apa Selanjutnya?
+Kita sudah menyiapkan semua alat yang dibutuhkan untuk pemrograman PHP.
+Selanjutnya, kita bisa mulai coding PHP..
+Silakan lanjutkan ke:
+Membuat Program PHP Pertama
+Selamat belajar!
