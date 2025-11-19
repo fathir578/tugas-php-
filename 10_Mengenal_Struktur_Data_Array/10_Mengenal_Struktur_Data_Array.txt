@@ -1,0 +1,27 @@
+Belajar PHP: 7 Hal yang Harus Kamu Ketahui Tentang Array di PHP
+Memahami Array di PHP
+Bayangkan sekarang kita sedang membuat aplikasi web, lalu ingin menampilkan daftar nama-nama produk. Bisa saja kita buat seperti ini: Apakah boleh seperti ini? Boleh-boleh saja. Tapi kurang efektif. Kenapa? Bagaimana kalau ada 100 produk, apakah kita akan membuat variabel sebanyak 100 dan melakukan echo sebanyak 100x? Capek donk. Karena itu, kita harus menggunakan Array. Pada kesempatan ini, kita akan membahas: Apa itu Array? Cara membuat Array di PHP dan Mengisinya, Cara menampilkan nilai Array, Cara Menghapus isi Array, Cara Menambah isi Array, Array Asosiatif, Array Multidimensi. Mari kita mulai…
+
+1. Apa itu Array?
+Array adalah salah satu struktur data yang berisi sekumpulan data dan memiliki indeks. Indeks digunakan untuk mengakses nilai array. Indeks array selalu dimulai dari nol (0). Contoh: Array. Jadi, apabila kita ingin menampilkan “Hard disk 2TB”, maka kita harus mengambil indeks yang ke-0. Untuk lebih jelasnya, mari kita coba…
+
+2. Membuat Array di PHP
+Array di PHP dapat kita buat dengan fungsi array() dan tanda kurung kotak []. Cukup mudah bukan. Oya, array dapat kita isi dengan tipe data apa saja. Bahkan dicampur juga boleh.
+
+3. Menampilkan isi Array
+Untuk menampilkan isi array, kita bisa mengaksesnya melalui indeks. Tapi cara ini kurang efektif, karen akita mencetak satu per satu. Nanti kalau datanya ada 1000, berarti harus ngetik perintah echo sebanyak 1000. Lalu bagaimana donk? Biasanya kita menggunakan perulangan. Kita bisa menggunakan fungsi count() untuk menghitung banyaknya isi array. Pada contoh di atas isi array sebanyak 3, maka perulangan akan dilakukan sebanyak 3x. Selain menggunakan perulangan for, kita juga bisa menggunakan perulangan while dan foreach.
+
+4. Menghapus isi Array
+Untuk menghapus isi array, kita bisa menggunakan fungsi unset(). Fungsi ini juga dapat digunakan untuk menghapus variabel.
+
+5. Menambahkan isi Array
+Ada dua cara yang bisa dilakukan untuk menambah isi array: Mengisi langsung ke nomer indeks yang ingin ditambahkan, Mengisi langsung ke indeks terakhir. Mari kita coba kedua-duanya. Apabila kita menambahkan pada indeks yang sudah memiliki isi, maka isinya akan ditindih dengan yang baru.
+
+6. Array Asosiatif
+Array asosiatif adalah array yang indeksnya tidak menggunakan nomer atau angka. Indeks array asosiatif berbentuk kata kunci. Pada array asosiatif, kita menggunakan tanda => untuk mengasosiasikan sebuah kata kunci dengan isi array. Selain menggunakan tanda =>, kita juga bisa membuat array asosiatif seperti ini:
+
+7. Array Multi Dimensi
+Array multi dimensi adalah array yang memiliki dimensi lebih dari satu. Biasanya digunakan untuk membuat matriks, graph, dan struktur data rumit lainnya. Mari kita coba contoh yang lain:
+
+Apa Selanjutnya?
+Kita sudah belajar 7 hal dasar yang harus diketahui tentang array di PHP. Selanjutnya silakan pelajari tentang fungsi atau latihan array lebih banyak lagi, supaya lebih paham. Kalau ada yang belum jelas, jangan sungkan untuk bertanya…
