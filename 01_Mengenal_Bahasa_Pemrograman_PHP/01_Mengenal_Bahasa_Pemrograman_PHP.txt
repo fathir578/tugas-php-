@@ -1,0 +1,85 @@
+Belajar PHP: Konsep Dasar Pemrograman PHP yang Harus Dipahami Pemula
+Tutorial PHP untuk pemula
+Selamat datang di Tutorial Belajar PHP untuk pemula..
+Banyak pemula yang bingung dan bertanya:
+“Gimana sih cara membuat web dengan PHP?”
+“Apa saja alat-alat yang diperlukan untuk coding PHP?”
+“Mengapa kita butuh PHP?”
+..dan masih banyak pertanyaan lainnya.
+
+Tentang..
+
+Kita akan mempelajarinya sampai paham.
+Mulai dari sejarah awal kemunculan PHP, sampai bisa paham konsep dasar pemrograman PHP.
+Siap?
+Pastikan kamu membaca sampai akhir ya.
+Mari kita mulai..
+
+Asal usul kemunculan PHP
+
+Pada zaman dulu.. Web itu statis, cuma dibuat dengan HTML dan sedikit sentuhan CSS.
+Waktu itu memang teknologi web masih belum secanggih sekarang.
+Jadi saat orang membuka web, mereka sebenarnya cuma membuka file HTML dari web server.
+
+Masalah waktu itu:
+Jika webnya statis, kita nggak bisa tau siapa saja yang buka dan berapa orang yang buka.
+Karena itu, di tahun 1993.. Rasmus Lerdorf membuat bahasa pemrograman PHP.
+
+Awalnya PHP cuma dipakai sendiri oleh Rasmus Lerdorf, kemudian di-rilis ke publik di tahun 1995.
+Dulu PHP dikenal sebagai singkatan:
+PHP = Personal Home Page.
+Tapi makin ke sini, singkatan itu berubah menjadi:
+PHP = PHP: Hypertext Preprocessor.
+
+Apa itu PHP?
+
+PHP adalah bahasa pemrograman scripting yang berjalan pada server. PHP dikembangkan dengan bahasa C sehingga sintaksnya mirip-mirip dengan bahasa C.
+Jadi, jika kamu sudah belajar bahasa C sebelumnya, kamu akan mudah memahami sintaks PHP.
+
+Peralatan yang dibutuhkan untuk Coding PHP
+
+Ada 4 tiga alat yang perlu disiapkan untuk mulai coding PHP:
+PHP interpreter – program buat menjalankan PHP pada server
+Teks Editor – buat menulis kode PHP
+Web Server – service buat menjalankan PHP
+Web Browser – buat melihat atau membuka website
+
+Silakan baca di sini cara install dan persiapannya:
+Persiapan Pemrograman PHP di Linux
+Persiapan Pemrograman PHP di Linux dengan XAMPP
+Persiapan Pemrograman PHP di Windows dengan XAMPP
+
+Ini baru peralatan dasar aja ya..
+Jika nanti kamu mau buat project beneran, kamu butuh yang namanya Composer buat manajemen paket.
+
+Apa itu Composer?
+Silakan baca di sini ya:
+Apa itu Composer pada PHP dan gimana cara menggunakannya?
+
+Oke lanjut..
+
+Alur Membuat Program PHP
+
+Alur membuat program PHP dimulai dengan menulis program PHP. Setelah itu, menjalankannya di server.
+Coba perhatikan gambar ini:
+Alur coding PHP
+
+Kita sebagai programmer menulis program PHP, kemudian kita upload ke server setelah program itu jadi.
+Selanjutnya, saat pengunjung atau user membuka web.. Dia akan menerima HTML yang merupakan hasil dari eksekusi PHP.
+Eksekusi web PHP
+
+Tunggu.. 🤔
+Apa nanti saat kita coding PHP, kita harus punya server?
+Betul, kita harus punya server. Namun, server ini tidak harus beli dari hosting.
+Kita bisa membuat server sendiri di komputer lokal (localhost) untuk menjalankan PHP. Bahkan, PHP juga sudah menyediakan server bawaan sendiri untuk keperluan development.
+Kita butuh sewa server di layanan hosting saat nanti aplikasi web kita sudah jadi.
+
+Sampai di sini sudah paham?
+Saya harap kamu paham..
+Jika belum paham, coba tanyakan di komentar.
+
+Apa selanjutnya?
+
+Oke, sejauh ini kita sudah mengenal PHP dan gimana konsep pemrogramannya.
+Selamat, kamu sudah melewati langkah pertama menjadi programmer PHP.
+Berikutnya, kita akan mempersiapkan alat tempur yang dibutuhkan untuk coding PHP.
