@@ -1,0 +1,5 @@
+<?php
+
+<kondisi> ? benar : salah;
+
+?>

@@ -1,0 +1,24 @@
+Belajar PHP: Memahami Percabangan untuk Logika Program
+Struktur kondisi di PHP
+Jika kamu seorang mahasiswa Teknik Informatika, pasti tidak akan asing dengan percabangan. Percabangan adalah sebutan untuk alur program yang bercabang. Pada kesempatan ini, kita akan pelajari tentang percabangan sampai tuntas dan membuat beberapa contoh program.
+
+Percabangan If
+Bentuk yang paling sederhana dari percabangan adalah “If” saja. Biasanya digunakan saat hanya ada satu tindakan yang harus dilakukan. Jika kondisi benar, maka eksekusi kode yang ada di dalamnya. <kondisi> bisa kita isi dengan nilai boolean atau kita busa buat pernyataan untuk menghasilkan nilai boolean. Perhatikan contoh di atas! Teks Anda dapat hadiah! hanya akan ditampilkan saat kondisi variabel $total_belanja bernilai di atas 100000. Kalau di bawah 100000, tidak akan menampilkan apa-apa. Kondisi yang digunakan pada contoh adalah: $total_belanja > 100000. Kondisi atau pernyataan ini akan bernilai true dan false. Jika true (benar), maka kode yang ada di dalamnya akan dieksekusi. Namun, apabila false maka tidak akan mengeksekusinya.
+
+Percabangan If/Else
+Percabangan If/Else memiliki dua pilihan. Jika <kondisi> bernilai false, maka blok else akan dikerjakan.
+
+Percabangan If/Elseif/Else
+Percabangan If/Elseif/Else memiliki lebih dari dua pilihan kondisi. Coba ubah variabel $nilai menjadi 54 dan perhatikanlah hasilnya!
+
+Percabangan Switch/Case
+Percabangan Switch/Case adalah bentuk lain dari percabangan If/Elseif/Else. Ada 5 pilihan dalam kondisi di atas. Pilihan default akan dipilih apabila nilai variabel $level tidak ada dalam pilihan case. Coba ubah nilai variabel $level dan perhatikanlah hasilnya.
+
+Percabangan dengan Operator Ternary
+Percabangan menggunakan operator ternary adalah bentuk sederhana dari percabangan If/Else. Artinya: jika variabel $suka bernilai true maka cetak "Aku juga suka kamu". Tapi kalau bernilai false, maka cetak "Baiklah!".
+
+Percabangan Bersarang
+Percabangan bersarang artinya ada percabangan di dalam percabangan (nested).
+
+Apa Selanjutnya?
+Pemahaman tentang percabangan akan sangat membantumu belajar ke tahap berikutnya. Karena dengan percabangan kita bisa membuat logika program. Perbanyaklah latihan dengan study kasus tertentu. Berikutnya silakan pelajari tentang perulangan di PHP. Selamat belajar…
