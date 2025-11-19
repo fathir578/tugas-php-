@@ -1,0 +1,25 @@
+Belajar PHP: Perbedaan Fungsi echo(), print(), dan printf() pada PHP
+
+PHP memiliki beberapa fungsi untuk mencetak teks ke layar: fungsi echo(), fungsi print(), dan fungsi printf(). Fungsi-fungsi ini akan sering kita gunakan dalam pemrograman PHP. Lalu, apa saja sih perbedaan dari tiga fungsi ini?
+
+Fungsi echo()
+Fungi echo() adalah fungsi untuk menampilkan teks ke layar. Fungsi ini dapat digunakan dengan tanda kurung maupun tanpa tanda kurung. Fungsi echo() tidak akan mengembalikan apa-apa setelah dieksekusi. Dia hanya bertugas menampilkan teks saja.
+
+Fungsi print()
+Fungsi print() sama seperti fungsi echo(). Dia juga digunakan untuk menampilkan teks ke layar. Fungsi print() juga bisa digunakan tanpa tanda kurung.
+Perbedaannya dengan echo():
+Fungsi print() akan selalu mengembalikan nilai 1 saat dieksekusi, sedangkan echo() tidak mengembalikan apa-apa.
+Fungsi print() hanya boleh diberikan satu parameter saja, sedangkan echo() boleh lebih dari satu.
+Apabila kita membuat variabel lalu mengisinya dengan fungsi print() maka variabel tersebut akan bernilai 1. Apabila kita memberikan dua parameter ke dalam fungsi print(), maka akan terjadi error.
+
+Menggabungkan String atau Teks di PHP
+Pada fungsi echo(), kita menggabungkan teks atau string dengan memberikan sebagai argumen (dipisah dengan tanda koma). Selain cara ini, kita juga bisa melakukannya dengan tanda titik (.). Titik adalah operator untuk menggabungkan dua teks di PHP. Kenapa tidak menggunakan simbol plus (+)? Pada PHP, simbol plus digunakan untuk penjumlahan, bukan untuk menggabungkan string.
+
+Fungsi printf() untuk Formatting Teks
+Fungsi printf() adalah fungsi untuk memformat teks atau string. Fungsi ini akan mengembalikan panjang dari teks saat dieksekusi. Simbol %s adalah sebuah placeholder untuk teks (string). Selain simbol %s ada juga simbol: %d untuk bilangan desimal (integer); %f untuk pecahan (float); %b untuk boolean. Salah satu yang patut kita coba adalah %f, karena dengan ini kita bisa mengatur bagaimana bilangan pecahan ditampilkan. Simbol %.2f artinya kita akan menetak bilangan dengan dua angka di belakang koma.
+
+Mencetak Tanda Kutip
+Kadang kita ingin menetak tanda kutip. Jika terjadi error, kita bisa menggunakan tanda back slash (\).
+
+Apa Selanjutnya?
+Kita sudah mengetahui perbedaan fungsi echo(), print(), printf(). Tiga fungsi ini memiliki kegunaan yang sama, yaitu mencetak teks ke layar. Manakah yang harus kita gunakan? Sebenarnya ini terserah kita mau pakai yang mana. Saya sendiri terbiasa menggunakan echo(), karena mudah diketik. Sedangkan print() dan printf() agak jarang digunakan.
