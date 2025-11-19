@@ -1,0 +1,42 @@
+Belajar PHP: 5 Hal Dasar yang Harus diketahui tentang Variabel dan Tipe Data
+Tutorial Pemrograman PHP: Variabel dan Tipe Data
+Apa kamu pernah menemukan x dan y dalam pelajaran matematika? Mereka berdua sebenarnya adalah variabel yang menyimpan sesuatu. Kadang, kita sering diberi tugas untuk mencari tahu isi dari x dan y. Contohnya: jika x + 3 = 5, berapakah x? Variabel dalam pemrograman juga memiliki arti yang sama seperti dalam matematika. Variabel adalah tempat kita menyimpan nilai sementara. Variabel akan ada selama program dijalankan. Namun kita juga bisa menghapusnya dari memori. Nanti kita akan pelajari caranya. Jadi, pada artikel ini kamu akan belajar: Cara membuat variabel dan menyimpan nilai di sana, Cara mengambil nilai dari variabel, Mengenal tipe data apa saja yang dapat disimpan di dalam variabel, Konversi tipe data, Menghapus variabel dari memori. Mari kita mulai…
+
+1. Membuat Variabel di PHP
+Pada PHP, kita membuat variabel dengan tanda dolar ($), lalu diikuti dengan nama variabelnya serta nilai yang ingin kita simpan. Kita baru saja membuat variabel bernama $harga dengan isi 1000. Tanda sama dengan (=) adalah simbol atau operator yang digunakan untuk mengisi nilai ke variabel. Mudah bukan? Oya, variabel juga dapat diisi ulang dengan nilai yang baru. Dalam membuat nama variabel ada beberapa hal yang harus diperhatikan: Awal dari nama variabel tidak boleh menggunakan angka dan simbol, kecuali underscore. Nama variabel yang terdiri dari dua suku kata, bisa dipisah dengan underscore (_) atau menggunakan style camelCase. Variabel harus diisi saat pembuatannya. Bila kita tidak ingin mengisi, cukup isi dengan nilai kosong. Nama variabel bersifat Case Sensitive, artinya huruf besar dan huruf kecil dibedakan. Contoh: Tiga variabel ini akan dianggap berbeda: $Belajar, $BELAJAR, $belajar.
+
+2. Mengambil Nilai dari Variabel
+Setelah kita membuat variabel, biasanya akan kita gunakan pada proses berikutnya dengan mengambil nilainya. Ya iya lah, masak cuma dibuat saja dan tidak digunakan. Mengambil nilai dari variabel bisa kita lakukan dengan menuliskan namanya dalam perintah echo maupun ekspresi yang lain. Jika kita menggunakan tanda petik ganda (") dalam echo, maka kita bisa menuliskan langsung nama variabelnya. Namun… Apabila kita menggunakan tanda petik tunggal ('), maka kita harus menggunakan titik untuk menggabungkan teks dengan variabelnya. Tanda titik pada perintah echo berfungsi untuk menggabungkan teks yang ada di dalam variabel dengan teks yang akan kita cetak.
+
+3. Mengenal Tipe Data di PHP
+Variabel yang sudah kita buat bisa kita simpan dengan berbagai jenis data. Jenis-jenis data ini disebut tipe data. Ada beberapa macam tipe data yang dapat disimpan dalam variabel: Tipe data char (karakter), Tipe data string (teks), Tipe data integer (angka), Tipe data float (pecahan), Tipe data boolean, Tipe data objek, Tipe data Array, NULL, dll. PHP PHP, kita tidak harus mendeklarasikan tipe datanya secara eksplisit. Karena PHP sudah mampu mengenali tipe data dari nilai yang kita berikan. Variabel $menikah akan ditampilkan kosong, karena nilai false akan dikonversi menjadi kosong dalam string. Nanti kita akan bahas cara konversi tipe data di PHP. Sekarang mari kita bahas masing-masing tipe data lebih detail…
+
+Tipe Data Char dan String di PHP
+Char adalah tipe data yang terdiri dari karakter. Penulisannya diapit dengan tanda petik satu. Lalu, String adalah tipe data yang terdiri dari kumpulan karakter. Penulisannya diapit dengan tanda petik ganda.
+
+Tipe Data Integer di PHP
+Integer adalah tipe data angka. Penulisannya tidak menggunakan tanda petik.
+
+Tipe Data Float di PHP
+Float adalah tipe data bilangan pecahan. Sama seperti integer, tipe data ini ditulis tanpa tanda petik. Kada juga tipe data float ditulis dalam notasi seperti ini: $jarak = 1.2E-5; E-5 artinya eksponen dari 10. Contoh di atas akan sama dengan 1.2 x 10-5. Kalau kita jabarkan akan menjadi 0.000012. Agar format float tidak tercetak dalam notasi E, kita bisa gunakan fungsi sprintf().
+
+Tipe data Boolean di PHP
+Tipe data boolean adalah tipe data yang hanya bernilai true dan false. Penulisan true dan false tidak diapit dengan tanda petik.
+
+Tipe Data Array dalam PHP
+Array adalah tipe data yang berisi sekumpulan data. Kita akan membahas lebih dalam tentang array di: 7 Hal yang Harus Kamu Ketahui Tentang Array.
+
+Tipe Data Objek di PHP
+Tipe data objek adalah tipe data abstrak yang berisi data dan method. Contoh: $user = new User(); Tipe data objek lebih sering disebut instance dari sebuah class. Pada contoh di atas User() adalah class yang di-instance di variabel $user. Setiap pembuatan instance harus didahului dengan kata kunci new.
+
+Tipe Data NULL di PHP
+Tipe data NULL adalah tipe data yang menyatakan kosong. Artinya: Jika kita mengisi variabel dengan nilai NULL, maka variabel tersebut akan dianggap kosong atau tidak punya nilai.
+
+4. Konversi Tipe data di PHP
+Apa yang akan terjadi bila kita melakukan pembagian dengan tipe data teks dengan angka seperti ini: $a = 3; $b = "angka 10"; $c = $b / $a; Tentunya akan terjadi error saat kita ingin mencetak isi variabel $c. Karena itu, kita harus konversi dulu tipe datanya agar bisa dilakukan operasi yang lain. Pada PHP konversi tipe data bisa dilakukan dengan operator kali (*). Selain cara ini, kita juga bisa melakukannya seperti di bahasa C:
+
+5. Menghapus Variabel dari Memori
+Apabila ada variabel yang sudah tidak dibutuhkan lagi, maka kita bisa menghapusnya untuk meningkatkan performa program. Cara menghapus variabel di PHP dapat menggunakan fungsi unset(). Jika kita eksekusi kode di atas, maka akan terjadi error: PHP Notice: Undefined variable: tmp. Karena variabel $tmp sudah kita hapus. Kenapa harus menghapus variabel? nanti juga akan terhapus sendiri saat programnya selesai? Biasanya saat kita ingin optimasi, variabel-variabel yang tidak terpakai harus dihapus agar tidak membebani memori pada server.
+
+Akhir Kata…
+Selamat, kamu sudah selesai membaca artikel ini. Kalau kita ringkas, 5 hal dasar yang harus dipahami tentang variabel dalam PHP adalah sebagai berikut: Cara membuat variabel, Cara mengambil nilai dari variabel, Mengetahui tipe data apa saja yang dapat disimpan di variabel, Cara konversi tipe data, Menghapus variabel dari memori. Berikutnya silakan pelajari tentang operator di PHP.
